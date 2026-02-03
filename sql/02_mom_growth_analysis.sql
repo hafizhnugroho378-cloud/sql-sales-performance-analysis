@@ -1,6 +1,5 @@
---- Objective
---- Analyze month-over-month (MoM) change in sales success rate
---- to evaluate performance momentum over time
+-- Objective
+-- Analyze month-over-month (MoM) change in sales success rate to evaluate performance momentum over time
 WITH monthly_rate AS (
     SELECT
         strftime('%m', sales_date) AS month,
