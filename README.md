@@ -80,3 +80,14 @@ sql-sales-performance-analysis/
 ## Conclusion
 This analysis demonstrates how SQL can be used to translate raw transaction data into meaningful business insights.  
 The results provide a foundation for performance monitoring, decision-making, and further analytical exploration.
+
+---
+
+## How to Run
+- Database: SQLite
+- Open the database using DB Browser for SQLite
+- Run each SQL file in order:
+  1. 01_monthly_success_rate.sql
+  2. 02_mom_growth_analysis.sql
+  3. 03_rolling_average_trend.sql
+  4. 04_anomaly_detection.sql
