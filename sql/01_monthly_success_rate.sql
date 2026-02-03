@@ -1,5 +1,5 @@
---- Objective:
---- Calculate monthly sales success rate to evaluate sales performance trends
+-- Objective:
+-- Calculate monthly sales success rate to evaluate sales performance trends
 
 WITH base AS (
     SELECT
