@@ -1,5 +1,5 @@
---- Objective
---- Analyze rolling average (3-month) of sales success rate to smooth short-term fluctuations and identify underlying trends
+-- Objective
+-- Analyze rolling average (3-month) of sales success rate to smooth short-term fluctuations and identify underlying trends
 
 WITH monthly_rate AS (
     SELECT
