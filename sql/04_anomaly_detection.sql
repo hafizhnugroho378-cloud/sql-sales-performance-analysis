@@ -1,5 +1,6 @@
---- Objective:
---- Detect unusual spikes or drops (anomalies) in monthly sales success rate
+-- Objective:
+-- Detect unusual spikes or drops (anomalies) in monthly sales success rate
+
 WITH monthly_rate AS (
     SELECT
         strftime('%m', sales_date) AS month,
