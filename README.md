@@ -1,4 +1,4 @@
-# Sales Performance Analysis using SQL
+# End-to-End Sales Performance Analysis (SQL + Power BI)
 
 ## Project Overview
 This project analyzes monthly sales performance using SQL to generate actionable business insights.  
@@ -67,13 +67,47 @@ This analysis simulates a real-world business scenario where management needs to
 ## Repository Structure
 sql-sales-performance-analysis/
 │
+├── data/
+│   └── sales_data.db
+│
 ├── sql/
 │   ├── 01_monthly_success_rate.sql
 │   ├── 02_mom_growth_analysis.sql
 │   ├── 03_rolling_average_trend.sql
 │   └── 04_anomaly_detection.sql
 │
+├── dashboard/
+│   ├── sales_performance_dashboard.pbix
+│   └── dashboard_preview.png
+│
 └── README.md
+
+---
+
+## Power BI Dashboard
+
+After completing the SQL analysis, the results were visualized in Power BI to create an interactive performance dashboard.
+
+### Dashboard Features:
+- KPI Cards:
+  - Average Success Rate
+  - Maximum Success Rate
+  - Minimum Success Rate
+  - Latest Month Success Rate
+- Month-over-Month Growth Visualization
+- 3-Month Rolling Average Trend
+- Anomaly Detection Overview
+- Success Rate vs Rolling Average Comparison
+
+### Dashboard Purpose:
+This dashboard allows stakeholders to:
+- Monitor sales performance in real time
+- Identify performance volatility
+- Detect abnormal patterns
+- Support data-driven decision-making
+
+### Dashboard Preview:
+(Add screenshot here)
 
 ---
 
