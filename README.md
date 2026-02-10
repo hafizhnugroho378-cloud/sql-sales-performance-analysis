@@ -106,7 +106,7 @@ This dashboard allows stakeholders to:
 - Detect abnormal patterns
 - Support data-driven decision-making
 
-### Dashboard Preview:
+## Power BI Dashboard
 
 The following visualizations were built in Power BI to monitor sales performance trends and detect volatility patterns.
 
@@ -118,6 +118,8 @@ The following visualizations were built in Power BI to monitor sales performance
 
 ### 3. Monthly Growth & Anomaly Detection
 ![MoM Growth and Anomaly Detection](dashboard/mom_growth_anomaly.png)
+
+This dashboard summarizes KPI performance, growth momentum, rolling trends, and anomaly signals in a single analytical view.
 
 ---
 
