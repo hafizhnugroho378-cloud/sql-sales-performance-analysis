@@ -107,7 +107,7 @@ This dashboard allows stakeholders to:
 - Support data-driven decision-making
 
 ### Dashboard Preview:
-(Add screenshot here)
+![Dashboard Preview](dashboard/dashboard_preview.png)
 
 ---
 
