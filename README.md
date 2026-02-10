@@ -107,8 +107,9 @@ This dashboard allows stakeholders to:
 - Support data-driven decision-making
 
 ### Dashboard Preview:
-![Dashboard Preview](dashboard/dashboard_preview.png)
-
+#### 1. Overall Performance Overview ![Dashboard Overview](dashboard/dashboard_overview.png)
+#### 2. Month-over-Month Growth & Anomaly Detection ![MoM Growth and Anomaly Detection](dashboard/dashboard_growth.png) 
+#### 3. Success Rate Trend vs 3-Month Rolling Average !
 ---
 
 ## Conclusion
