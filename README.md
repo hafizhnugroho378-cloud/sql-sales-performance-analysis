@@ -113,13 +113,17 @@ The following visualizations were built in Power BI to monitor sales performance
 ### 1. Full Dashboard Overview
 ![Full Dashboard Overview](dashboard/full_dashboard_overview.png)
 
+This dashboard summarizes KPI performance, growth momentum, rolling trends, and anomaly signals in a single analytical view.
+
 ### 2. Success Rate Trend vs 3-Month Rolling Average
 ![Success Rate Trend](dashboard/success_rate_vs_rolling_average.png)
+
+This visualization compares actual monthly success rate against a 3-month rolling average to identify performance consistency and volatility.
 
 ### 3. Monthly Growth & Anomaly Detection
 ![MoM Growth and Anomaly Detection](dashboard/mom_growth_anomaly.png)
 
-This dashboard summarizes KPI performance, growth momentum, rolling trends, and anomaly signals in a single analytical view.
+This section highlights month-over-month growth fluctuations and detects abnormal performance patterns requiring further investigation.
 
 ---
 
