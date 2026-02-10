@@ -107,9 +107,18 @@ This dashboard allows stakeholders to:
 - Support data-driven decision-making
 
 ### Dashboard Preview:
-#### 1. Overall Performance Overview ![Dashboard Overview](dashboard/dashboard_overview.png)
-#### 2. Month-over-Month Growth & Anomaly Detection ![MoM Growth and Anomaly Detection](dashboard/dashboard_growth.png) 
-#### 3. Success Rate Trend vs 3-Month Rolling Average !
+
+The following visualizations were built in Power BI to monitor sales performance trends and detect volatility patterns.
+
+### 1. Full Dashboard Overview
+![Full Dashboard Overview](dashboard/full_dashboard_overview.png)
+
+### 2. Success Rate Trend vs 3-Month Rolling Average
+![Success Rate Trend](dashboard/success_rate_vs_rolling_average.png)
+
+### 3. Monthly Growth & Anomaly Detection
+![MoM Growth and Anomaly Detection](dashboard/mom_growth_anomaly.png)
+
 ---
 
 ## Conclusion
