@@ -5,12 +5,14 @@ This project analyzes monthly sales performance using SQL and Power BI to evalua
 
 The analysis focuses on identifying performance trends, momentum shifts, and anomaly patterns across monthly sales data.
 
+This solution demonstrates how raw transactional data can be transformed into structured performance intelligence for management-level evaluation.
+
 ---
 
 ## Business Questions
 - How does the monthly sales success rate change over time?
 - Are we improving or declining month-over-month?
-- Are sales results meeting the expected target?
+- How does performance compare against historical trends?
 - Are there unusual spikes or drops that require attention?
 
 ---
@@ -114,8 +116,16 @@ This section highlights month-over-month growth fluctuations and detects abnorma
 ---
 
 ## Conclusion
-This analysis demonstrates how SQL can be used to translate raw transaction data into meaningful business insights.  
-The results provide a foundation for performance monitoring, decision-making, and further analytical exploration.
+This project illustrates how structured SQL analysis combined with Power BI visualization can transform transactional sales data into actionable performance intelligence.
+
+By integrating trend analysis, momentum tracking, and anomaly detection, the solution supports proactive monitoring and strategic sales decision-making.
+
+---
+
+## Future Improvements
+- Integrate sales target benchmarking
+- Add predictive forecasting using time-series modeling
+- Deploy dashboard to Power BI Service for live reporting
 
 ---
 
