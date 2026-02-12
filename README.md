@@ -1,10 +1,9 @@
 # End-to-End Sales Performance Analysis (SQL + Power BI)
 
 ## Project Overview
-This project analyzes monthly sales performance using SQL to generate actionable business insights.  
-The focus is on **success rate trends, growth analysis, and performance evaluation against targets**.
+This project analyzes monthly sales performance using SQL and Power BI to evaluate sales effectiveness, detect volatility, and support strategic decision-making.
 
-This analysis simulates a real-world business scenario where management needs to monitor sales effectiveness over time.
+The analysis focuses on identifying performance trends, momentum shifts, and anomaly patterns across monthly sales data.
 
 ---
 
@@ -60,10 +59,11 @@ This analysis simulates a real-world business scenario where management needs to
 ---
 
 ## Business Interpretation
-- Fluctuating success rates suggest inconsistency in sales execution.
-- Periods of decline may indicate operational or market-related issues.
-- Positive momentum in recent months shows improvement after corrective actions.
-- Management should focus on stabilizing performance during volatile periods.
+- Inconsistent success rates indicate potential inefficiencies in sales execution.
+- Declining periods may reflect operational gaps or external market pressure.
+- Recovery phases suggest that corrective strategies may be effective.
+- Continuous monitoring is required to minimize volatility and improve predictability.
+  
 ## Repository Structure
 sql-sales-performance-analysis/
 │
@@ -86,28 +86,6 @@ sql-sales-performance-analysis/
 
 ## Power BI Dashboard
 
-After completing the SQL analysis, the results were visualized in Power BI to create an interactive performance dashboard.
-
-### Dashboard Features:
-- KPI Cards:
-  - Average Success Rate
-  - Maximum Success Rate
-  - Minimum Success Rate
-  - Latest Month Success Rate
-- Month-over-Month Growth Visualization
-- 3-Month Rolling Average Trend
-- Anomaly Detection Overview
-- Success Rate vs Rolling Average Comparison
-
-### Dashboard Purpose:
-This dashboard allows stakeholders to:
-- Monitor sales performance in real time
-- Identify performance volatility
-- Detect abnormal patterns
-- Support data-driven decision-making
-
-## Power BI Dashboard
-
 The following visualizations were built in Power BI to monitor sales performance trends and detect volatility patterns.
 
 ### 1. Full Dashboard Overview
@@ -124,6 +102,14 @@ This visualization compares actual monthly success rate against a 3-month rollin
 ![MoM Growth and Anomaly Detection](dashboard/mom_growth_anomaly.png)
 
 This section highlights month-over-month growth fluctuations and detects abnormal performance patterns requiring further investigation.
+
+---
+
+## Technical Highlights
+- Implemented rolling window calculations using `AVG() OVER (ROWS BETWEEN 2 PRECEDING AND CURRENT ROW)`
+- Used `LAG()` to calculate month-over-month performance shifts
+- Designed anomaly flag logic based on performance deviation
+- Structured modular SQL scripts for analytical scalability
 
 ---
 
